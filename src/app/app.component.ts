@@ -54,12 +54,13 @@ export class AppComponent {
   }
 
   userToUpdate = {
-    userid: null as any,
+    id: null as any,
     username: "",
     address: "",
     email: "",
+    phoneNumber: "",
+    role: "",
     password: "",
-    salary: ""
   };
 
   edit(user: any) {
